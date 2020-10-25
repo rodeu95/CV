@@ -1,2 +1,2 @@
 # Toti
-Curriculum vitae
+Aprendiz de programación

@@ -2,38 +2,50 @@ body { background-color: PaleTurquoise;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 
 }
-    h1 {
+h1 {
         color:black;
         text-align: center;
         text-shadow: 3px 3px 5px grey;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     }
     
-    h2 {
+h2 {
         color: white;
         text-align: center;
         text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 3px 3px 5px grey;
       
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     }
- 
-        
-    #info {
+img{
+     height:auto;
+     width:200px;
+     border-radius:50%;
+     box-shadow:3px 4px 5px grey;
+     padding:10px;
+     border:2px #696969;
+     margin:auto;
+     display:block
+}
+#img {
+   width:100%
+}  
+
+#info {
         color:rgb(32, 124, 178);
         border-style:solid;
         border-radius: 8px;
         margin-top: 50px;
         margin-bottom: 50px;
         margin-right: 70px;
-        margin-left: 50px
+        margin-left: 20px
     }
-    #info1 {
+#info2 {
         margin-top: 10px;
         margin-bottom: 10px;
         margin-right: 70px;
         margin-left: 50px
     }
-    #complemento{
+#complemento{
         font-style:italic;
     }
 
@@ -46,9 +58,9 @@ body { background-color: PaleTurquoise;
     border: 2px;
     border-radius: 8px;
     margin-top: 50px;
-        margin-bottom: 50px;
-        margin-right: 70px;
-        margin-left: 50px
+    margin-bottom: 50px;
+    margin-right: 70px;
+    margin-left: 50px
 }
 #con1{
     margin-top: 50px;
@@ -89,11 +101,11 @@ body { background-color: PaleTurquoise;
     margin-left: 50px
 }
 
-    #lang{
-        margin-top: 30px;
-        margin-bottom: 50px;
-        margin-right: 70px;
-        margin-left: 50px
+#lang{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 70px;
+    margin-left: 50px
     }
 
 #disp{

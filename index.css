@@ -13,9 +13,17 @@ h2 {
         color: white;
         text-align: center;
         text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 3px 3px 5px grey;
-      
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-    }
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        float: left;
+        width: 25%;
+        padding: 15px
+}
+
+#h2{position:relative;
+    top:35px;
+    right:20px
+}
+
 img{
      height:auto;
      width:200px;
@@ -23,8 +31,13 @@ img{
      box-shadow:3px 4px 5px grey;
      padding:10px;
      border:2px #696969;
-     margin:auto;
-     display:block
+     margin: auto;
+     display:block;
+     position:relative;
+     right:975px;
+     top:150px
+     
+       
 }
 #img {
    width:100%
@@ -35,7 +48,7 @@ img{
         border-style:solid;
         border-radius: 8px;
         margin-top: 50px;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
         margin-right: 70px;
         margin-left: 20px
     }
@@ -45,6 +58,17 @@ img{
         margin-right: 70px;
         margin-left: 50px
     }
+    .mail{
+        
+        font-weight: bold;
+        
+    }
+    .cel{
+        
+        font-weight:bold;
+        
+    }
+    
 #complemento{
         font-style:italic;
     }
@@ -57,28 +81,32 @@ img{
     background-image: linear-gradient(to right, rgb(103, 230, 247) , rgb(4, 155, 147));
     border: 2px;
     border-radius: 8px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-right: 70px;
     margin-left: 50px
+
 }
 #con1{
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 50px;
     margin-right: 70px;
-    margin-left: 50px
+    margin-left: 50px;
+    line-height: 1.5
 }
 #cursos {
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 50px;
     margin-right: 70px;
-    margin-left: 50px
+    margin-left: 50px;
+    line-height: 1.5
 }
 #estudios {
     margin-top: 20px;
         margin-bottom: 50px;
         margin-right: 70px;
-        margin-left: 50px
+        margin-left: 50px;
+        line-height: 1.5
 }
 #con {
     font-weight:bold;
@@ -98,14 +126,16 @@ img{
     margin-top: 30px;
     margin-bottom: 50px;
     margin-right: 70px;
-    margin-left: 50px
+    margin-left: 50px;
+    line-height: 1.5
 }
 
 #lang{
     margin-top: 30px;
     margin-bottom: 50px;
     margin-right: 70px;
-    margin-left: 50px
+    margin-left: 50px;
+    line-height: 1.5
     }
 
 #disp{
@@ -114,4 +144,20 @@ img{
     margin-bottom: 50px;
     margin-right: 70px;
     margin-left: 50px
+}
+#columna{
+    float: left;
+    width: 25%;
+    padding: 15px;
+    position:relative;
+    top:150px
+}
+#columna2{
+    float: right;
+    width: 75%;
+    padding: 15px;
+    margin:auto;
+    position:relative;
+    top:-850px;
+   
 }

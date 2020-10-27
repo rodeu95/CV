@@ -30,6 +30,7 @@ body { background-color: PaleTurquoise;
     font-weight: bold;
     font-size: 20px;
     border-style: double;
+    background-image: linear-gradient(to right, rgb(103, 230, 247) , rgb(4, 155, 147))
 }
 #con {
     font-weight:bold;

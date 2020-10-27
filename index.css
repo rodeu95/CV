@@ -1,0 +1,49 @@
+body { background-color: PaleTurquoise;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+    
+
+}
+    h1 {
+        color:black;
+        text-align: center;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    h2{
+        color: darkolivegreen;
+        text-align: center;
+    }
+        
+    #info{
+        color:LightSeaGreen;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-style:solid;
+        
+    }
+    
+    #complemento{
+        font-style:italic;
+    }
+#subt {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    border-style: double;
+}
+#con {
+    font-weight:bold;
+}
+#curso {
+    font-weight: bold;
+}
+#fecha {
+    font-style: italic;
+}
+#titulo {
+    font-weight: bold;
+    font-style: italic;
+}
+#disp{
+    font-weight: bold;
+}

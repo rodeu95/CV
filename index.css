@@ -1,26 +1,38 @@
 body { background-color: PaleTurquoise;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 
 }
     h1 {
         color:black;
         text-align: center;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-shadow: 3px 3px 5px grey;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     }
     
     h2 {
-        color: darkolivegreen;
+        color: white;
         text-align: center;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 3px 3px 5px grey;
+      
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     }
  
         
     #info {
         color:rgb(32, 124, 178);
         border-style:solid;
-        border-radius: 8px
-        
+        border-radius: 8px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-right: 70px;
+        margin-left: 50px
     }
-    
+    #info1 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 70px;
+        margin-left: 50px
+    }
     #complemento{
         font-style:italic;
     }
@@ -32,7 +44,29 @@ body { background-color: PaleTurquoise;
     border-style: double;
     background-image: linear-gradient(to right, rgb(103, 230, 247) , rgb(4, 155, 147));
     border: 2px;
-    border-radius: 8px
+    border-radius: 8px;
+    margin-top: 50px;
+        margin-bottom: 50px;
+        margin-right: 70px;
+        margin-left: 50px
+}
+#con1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 70px;
+    margin-left: 50px
+}
+#cursos {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 70px;
+    margin-left: 50px
+}
+#estudios {
+    margin-top: 20px;
+        margin-bottom: 50px;
+        margin-right: 70px;
+        margin-left: 50px
 }
 #con {
     font-weight:bold;
@@ -42,11 +76,30 @@ body { background-color: PaleTurquoise;
 }
 #fecha {
     font-style: italic;
+    text-decoration: underline
 }
 #titulo {
     font-weight: bold;
-    font-style: italic;
+    font-style: italic;}
+
+#exp{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 70px;
+    margin-left: 50px
 }
+
+    #lang{
+        margin-top: 30px;
+        margin-bottom: 50px;
+        margin-right: 70px;
+        margin-left: 50px
+    }
+
 #disp{
     font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-right: 70px;
+    margin-left: 50px
 }

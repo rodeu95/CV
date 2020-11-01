@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+  }
+  
 body { background-color: PaleTurquoise;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 
@@ -6,13 +10,14 @@ h1 {
         color:black;
         text-align: center;
         text-shadow: 3px 3px 5px grey;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-decoration: underline;
     }
     
 h2 {
         color: black;
         text-align: center;
-        text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white, 3px 3px 5px grey;
+        text-shadow: 3px 3px 5px grey;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         float: left;
         width: 25%;
@@ -20,8 +25,8 @@ h2 {
 }
 
 #h2{position:relative;
-    top:-10px;
-    right:20px
+    top:310px;
+    right:30px
 }
 
 img{
@@ -35,7 +40,7 @@ img{
      display:block;
      position:relative;
      right:975px;
-     top:100px
+     top:25px
      
        
 }
@@ -145,18 +150,29 @@ img{
     margin-right: 70px;
     margin-left: 50px
 }
-#columna{
+#col-1{
     float: left;
     width: 25%;
     padding: 15px;
     position:relative;
-    top:100px
+    top:100px;
+    content: "";
+    clear: both;
+    display: block
 }
-#columna2{
+#col-2{
     float: right;
     width: 75%;
     padding: 15px;
     margin:auto;
     position:relative;
     top:-850px;
+    content: "";
+    clear: both;
+    display: block
+}
+@media only screen and (max-width: 768px) {
+[id*="col-"] {
+    width: 100%;
+  }
 }

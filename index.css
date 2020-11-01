@@ -44,7 +44,7 @@ img{
 }  
 
 #info {
-        color:rgb(32, 124, 178);
+        color:teal ;
         border-style:solid;
         border-radius: 8px;
         margin-top: 50px;
@@ -159,5 +159,4 @@ img{
     margin:auto;
     position:relative;
     top:-850px;
-   
 }

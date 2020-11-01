@@ -1,6 +1,4 @@
-* {
-    box-sizing: border-box;
-  }
+
   
 body { background-color: PaleTurquoise;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
@@ -156,9 +154,7 @@ img{
     padding: 15px;
     position:relative;
     top:100px;
-    content: "";
-    clear: both;
-    display: block
+   
 }
 #col-2{
     float: right;
@@ -167,12 +163,4 @@ img{
     margin:auto;
     position:relative;
     top:-850px;
-    content: "";
-    clear: both;
-    display: block
-}
-@media only screen and (max-width: 768px) {
-[id*="col-"] {
-    width: 100%;
-  }
 }

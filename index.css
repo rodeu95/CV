@@ -1,6 +1,6 @@
 body { background-color: PaleTurquoise;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
 }
 h1 {
         color:black;
@@ -59,6 +59,7 @@ img{
         margin-right: 70px;
         margin-left: 50px
     }
+
     .mail{
         
         font-weight: bold;
@@ -86,8 +87,8 @@ img{
     margin-bottom: 20px;
     margin-right: 70px;
     margin-left: 50px
-
 }
+
 #con1{
     margin-top: 20px;
     margin-bottom: 50px;
@@ -95,6 +96,7 @@ img{
     margin-left: 50px;
     line-height: 1.5
 }
+
 #cursos {
     margin-top: 20px;
     margin-bottom: 50px;
@@ -102,6 +104,7 @@ img{
     margin-left: 50px;
     line-height: 1.5
 }
+
 #estudios {
     margin-top: 20px;
         margin-bottom: 50px;
@@ -109,16 +112,20 @@ img{
         margin-left: 50px;
         line-height: 1.5
 }
+
 #con {
     font-weight:bold;
 }
+
 #curso {
     font-weight: bold;
 }
+
 #fecha {
     font-style: italic;
     text-decoration: underline
 }
+
 #titulo {
     font-weight: bold;
     font-style: italic;}
@@ -137,7 +144,7 @@ img{
     margin-right: 70px;
     margin-left: 50px;
     line-height: 1.5
-    }
+}
 
 #disp{
     font-weight: bold;
@@ -146,14 +153,15 @@ img{
     margin-right: 70px;
     margin-left: 50px
 }
+
 #col-1{
     float: left;
     width: 25%;
     padding: 15px;
     position:relative;
     top:100px;
-   
 }
+
 #col-2{
     float: right;
     width: 75%;
